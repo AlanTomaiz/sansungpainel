@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Painel Spike</title>
+<style>
+  body { margin: 0; background: #111; color: #eee; font: 24px sans-serif; display: flex; height: 100vh; }
+  #menu { width: 40%; padding: 32px; overflow: hidden; }
+  #log { flex: 1; padding: 32px; font: 18px monospace; white-space: pre-wrap; overflow: hidden; background: #000; }
+  .btn { padding: 12px 18px; margin: 6px 0; border-radius: 8px; background: #222; }
+  .btn.focus { background: #2a6df4; }
+  #win { position: absolute; right: 32px; bottom: 32px; width: 640px; height: 360px; outline: 2px dashed #2a6df4; display: none; }
+</style>
+</head>
+<body>
+<div id="menu"></div>
+<div id="log"></div>
+<div id="win"></div>
+<script src="$WEBAPIS/webapis/webapis.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

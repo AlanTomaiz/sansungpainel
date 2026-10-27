@@ -1,0 +1,51 @@
+{
+  "favorites": [
+    {
+      "appId": "org.tizen.netflix-app",
+      "name": "Netflix",
+      "bg": "#000",
+      "hue": [229, 9, 20],
+      "meta": "Filmes e séries"
+    },
+    {
+      "appId": "9Ur5IzDKqV.TizenYouTube",
+      "name": "YouTube",
+      "bg": "#ff0033",
+      "hue": [255, 0, 51],
+      "meta": "Vídeos"
+    },
+    {
+      "appId": "org.tizen.primevideo",
+      "name": "Prime Video",
+      "bg": "#1a98ff",
+      "hue": [31, 182, 255],
+      "meta": "Filmes e séries"
+    },
+    {
+      "appId": "rJeHak5zRg.Spotify",
+      "name": "Spotify",
+      "bg": "#121212",
+      "hue": [30, 215, 96],
+      "meta": "Música e podcasts"
+    }
+  ],
+  "weather": {
+    "city": "Maringá - PR",
+    "lat": -23.4205,
+    "lon": -51.9333,
+    "tz": "America/Sao_Paulo"
+  },
+  "news": [
+    { "theme": "Brasil", "url": "https://g1.globo.com/rss/g1/" },
+    { "theme": "Economia", "url": "https://g1.globo.com/rss/g1/economia/" },
+    { "theme": "Tecnologia", "url": "https://g1.globo.com/rss/g1/tecnologia/" },
+    { "theme": "Games", "url": "https://g1.globo.com/rss/g1/pop-arte/games/" }
+  ],
+  "relayBase": null,
+  "psnRefreshToken": null,
+  "sourceRoute": {
+    "weather": "direct",
+    "quotes": "direct",
+    "news": "direct"
+  }
+}

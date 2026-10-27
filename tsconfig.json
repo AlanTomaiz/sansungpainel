@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["ES2019", "DOM"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "paths": { "@/*": ["./src/*"] }
+  },
+  "include": ["src", "relay", "scripts/**/*.ts", "vitest.config.ts"]
+}

@@ -1,0 +1,31 @@
+.tstat {
+  position: absolute;
+  top: 52px;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: var(--muted);
+}
+.tstat > span {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+}
+.tstat svg {
+  width: 26px;
+  height: 26px;
+  margin-right: 10px;
+}
+.tstat .clock {
+  font-size: 34px;
+  font-weight: 500;
+  color: var(--text);
+}
+.tstat .ok {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--positive);
+  margin-right: 10px;
+}

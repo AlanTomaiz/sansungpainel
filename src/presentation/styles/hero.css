@@ -1,0 +1,44 @@
+.thero {
+  position: absolute;
+  left: 80px;
+  top: 420px;
+  max-width: 960px;
+}
+.thero h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 104px;
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 1;
+}
+.thero p {
+  font-size: 30px;
+  color: var(--muted);
+  margin-top: 18px;
+}
+.thero .tag {
+  display: inline-flex;
+  align-items: center;
+  font-size: 24px;
+  color: var(--muted);
+  margin-top: 20px;
+}
+.thero .tag:empty {
+  display: none;
+}
+.thero .tag i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--positive);
+  margin-right: 10px;
+}
+.thero .notice {
+  display: block;
+  font-size: 24px;
+  color: var(--negative);
+  margin-top: 20px;
+}

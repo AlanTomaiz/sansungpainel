@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.superpowers/
+.taste-skill/
+config/painel.config.json
+config/tv.json
+relay/.env
+*.wgt

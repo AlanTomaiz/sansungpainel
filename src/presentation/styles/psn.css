@@ -1,0 +1,122 @@
+.psn .cbody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.psn .psn-stack {
+  position: relative;
+  flex: 1;
+}
+.psn .rot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.6s ease;
+}
+.psn .rot.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.psn .tro {
+  display: flex;
+  margin-top: 16px;
+  font-size: 26px;
+  font-weight: 600;
+}
+.psn .tro span {
+  display: flex;
+  align-items: center;
+  margin-right: 22px;
+}
+.psn .tro i {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.psn .last {
+  margin-top: auto;
+  margin-bottom: 6px;
+  font-size: 22px;
+  color: var(--muted);
+}
+.psn .last b {
+  display: block;
+  color: var(--text);
+  font-weight: 500;
+  font-size: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.psn .bar {
+  margin-right: 48px;
+  height: 8px;
+  border-radius: 99px;
+  background: rgba(255, 255, 255, 0.14);
+  margin-top: 14px;
+  overflow: hidden;
+}
+.psn .bar i {
+  display: block;
+  height: 100%;
+  background: var(--data);
+  border-radius: 99px;
+}
+.psn .deal {
+  display: grid;
+  grid-template-columns: 70px 1fr auto;
+  grid-gap: 16px;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 23px;
+}
+.psn .deal .cv {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-size: cover;
+  background-color: var(--raised);
+}
+.psn .deal small {
+  display: block;
+  font-size: 19px;
+  color: var(--faint);
+}
+.psn .deal .p {
+  text-align: right;
+  font-weight: 600;
+}
+.psn .deal .p s {
+  display: block;
+  font-weight: 400;
+  color: var(--faint);
+  font-size: 18px;
+}
+.psn .dots {
+  position: absolute;
+  right: 0;
+  bottom: -2px;
+  display: flex;
+}
+.psn .dots i {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  transition: background 0.3s;
+}
+.psn .dots i.on {
+  background: var(--text);
+}
+@media (prefers-reduced-motion: reduce) {
+  .psn .rot {
+    transition: none;
+  }
+}
